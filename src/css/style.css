@@ -1,0 +1,72 @@
+html {
+    overflow: hidden;
+}
+
+a {
+    color: #45363B;
+    text-decoration: none;
+}
+
+a:link {
+    color: #45363B;
+}
+
+a:visited {
+    color: #45363B;
+}
+
+a:hover {
+    color: #45363B;
+}
+
+a:active {
+    color: #45363B;
+}
+
+div#wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF5F9;
+    color: #45363B;
+    font-family: "Source Sans Pro", Tahoma, sans-serif;
+}
+
+div.section {
+    width: 100vw;
+}
+
+div#header {
+    position: absolute;
+    top: 0;
+}
+
+div#main {
+    position: absolute;
+    top: 45vh;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+div#footer {
+    position: absolute;
+    bottom: 0;
+}
+
+div#name h1 {
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+div#email h2 {
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+div#links ul {
+    list-style: none;
+    padding: 0;
+}
+
+div#links ul li {
+    display: inline-block;
+}
