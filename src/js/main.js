@@ -12,5 +12,10 @@ function love() {
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
+    document.getElementById("heart").addEventListener("click", function() {
+        love();
+    });
+
     love();
 });
+

@@ -69,6 +69,7 @@ div#footer a {
 div#footer a:hover {
     stroke: none;
     fill: #FF000050;
+    cursor: pointer;
 }
 
 div#footer p {
