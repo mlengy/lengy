@@ -25,6 +25,10 @@ a:active {
     color: #45363B;
 }
 
+.hidden {
+    display: none;
+}
+
 div#wrapper {
     height: 100vh;
     width: 100vw;
@@ -44,7 +48,7 @@ div#header {
 
 div#main {
     position: absolute;
-    top: 47vh;
+    top: 45vh;
     transform: translateY(-50%);
     text-align: center;
 }
@@ -52,6 +56,25 @@ div#main {
 div#footer {
     position: absolute;
     bottom: 0;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #45363B50;
+}
+
+div#footer a {
+    stroke: #45363B50;
+    fill: none;
+}
+
+div#footer a:hover {
+    stroke: none;
+    fill: #FF000060;
+}
+
+div#footer p {
+    display: inline-block;
+    vertical-align: 20%;
+    margin-left: 0.25em;
 }
 
 div#name h1 {
