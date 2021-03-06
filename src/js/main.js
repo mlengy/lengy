@@ -1,6 +1,6 @@
 function love() {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.countapi.xyz/hit/lengy/test1");
+    xhr.open("GET", "https://api.countapi.xyz/hit/lengy/v1loves");
     xhr.responseType = "json";
     xhr.onload = function() {
         document.getElementById("loves").innerText = this.response.value;
