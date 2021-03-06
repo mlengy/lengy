@@ -58,17 +58,17 @@ div#footer {
     bottom: 0;
     margin-bottom: 1em;
     text-align: center;
-    color: #45363B50;
+    color: #45363B30;
 }
 
 div#footer a {
-    stroke: #45363B50;
+    stroke: #45363B30;
     fill: none;
 }
 
 div#footer a:hover {
     stroke: none;
-    fill: #FF000060;
+    fill: #FF000050;
 }
 
 div#footer p {

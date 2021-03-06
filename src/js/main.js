@@ -10,3 +10,7 @@ function love() {
 
     return false;
 }
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    love();
+});
