@@ -115,6 +115,10 @@ div#links ul li#facebook {
     margin-right: 0.3rem;
 }
 
+div#links ul li#resume {
+    margin-left:  0.2rem;
+}
+
 div#links ul li a {
     display: block;
 }
