@@ -1,28 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=block');
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=block');*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 html {
     overflow: hidden;
+    background-color: #FFF0F7;
+    color: #505050;
 }
 
 a {
-    color: #45363B;
+    color: #505050;
     text-decoration: none;
 }
 
 a:link {
-    color: #45363B;
+    color: #505050;
 }
 
 a:visited {
-    color: #45363B;
+    color: #505050;
 }
 
 a:hover {
-    color: #45363B;
+    color: #000000;
 }
 
 a:active {
-    color: #45363B;
+    color: #505050;
 }
 
 .hidden {
@@ -39,96 +42,62 @@ a:active {
 }
 
 div#wrapper {
-    height: 100vh;
-    width: 100vw;
-    background-color: #FFF5F9;
-    color: #45363B;
-    font-family: "Source Sans Pro", Tahoma, sans-serif;
-}
-
-div.section {
-    width: 100vw;
-}
-
-div#header {
-    position: absolute;
-    top: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+/*    font-family: 'Rubik', sans-serif;*/
 }
 
 div#main {
     position: absolute;
-    top: 45vh;
-    transform: translateY(-50%);
-    text-align: center;
-}
-
-div#footer {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 1em;
-    text-align: center;
-    color: #45363B30;
-}
-
-div#footer a {
-    stroke: #45363B30;
-    fill: none;
-}
-
-div#footer a:hover {
-    stroke: none;
-    fill: #FF000050;
-    cursor: pointer;
-}
-
-div#footer p {
-    display: inline-block;
-    vertical-align: 20%;
-    margin-left: 0.25em;
+    text-align: left;
+    max-width: 500px;
+    margin-top: 15vw;
+    margin-right: 15vw;
+    left: 15vw;
+    bottom: 15vw;
 }
 
 div#name h1 {
-    font-size: 2.3em;
-    font-weight: 700;
+    font-size: 3em;
+    font-weight: 500;
+    margin: 0em;
+    color: #0d0d0d;
+}
+
+div#email {
+    margin-top: 0.5em;
 }
 
 div#email h2 {
-    font-size: 1.3em;
-    font-weight: normal;
-    margin-top: 2.5rem;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0em;
+}
+
+@media (max-width: 400px) {
+    div#name h1 {
+        font-size: 2em;
+    }
+
+    div#email h2 {
+        font-size: 1.0em;
+    }
+
+    div#links ul li {
+        font-size: 0.8em;
+    }
+}
+
+div#links {
+    margin-top: 3em;
 }
 
 div#links ul {
     list-style: none;
-    padding: 0;
-    margin-top: 1.5rem;
+    padding: 0em;
+    margin: 0em;
 }
 
 div#links ul li {
-    display: inline-block;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
-
-div#links ul li#facebook {
-    margin-left: 0.7rem;
-    margin-right: 0.3rem;
-}
-
-div#links ul li#resume {
-    margin-left:  0.3rem;
-}
-
-div#links ul li a {
-    display: block;
-}
-
-div#links ul li a svg {
-    height: 1.5em;
-    width: 1.5em;
-    fill: none;
-    stroke: #45363B;
-    stroke-width: 1.5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+    margin-top: 1em;
+    font-weight: 400;
 }
